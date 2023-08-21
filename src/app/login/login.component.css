@@ -1,0 +1,21 @@
+.bg-blue {
+  background: #FAFBFC;
+}
+
+.width {
+  width: 25%;
+  padding: 7% 0% 7% 50%;
+}
+
+button {
+  font-size: 12px;
+  padding: 10px 120px;
+}
+
+.fs-small, .get-help {
+  font-size: 11px;
+}
+
+.login-sec {
+  background: white;
+}/*# sourceMappingURL=login.component.css.map */

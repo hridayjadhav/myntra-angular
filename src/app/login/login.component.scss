@@ -1,0 +1,26 @@
+@mixin login-area($color){
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+
+.bg-blue{
+    background: #FAFBFC;
+}
+.width{
+    width: 25%;
+    padding: 9% 0% 5% 50%;
+}
+button{
+    font-size: 12px;
+    padding: 10px 120px;
+}
+.fs-small, .get-help{
+    font-size: 11px;
+}
+.login-sec{
+    background:white;
+}
+.login-sec a{
+    @include login-area(blue)
+}
